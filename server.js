@@ -21,6 +21,7 @@ var server = http.createServer(function (req, res) {
         
         
         res.write('This is working application....e\n');
+        res.write('Creating application with with Node Js app\n');
 
         res.write('This is a node.js echo service\n');
 		res.write('Host: ' + req.headers.host + '\n');
