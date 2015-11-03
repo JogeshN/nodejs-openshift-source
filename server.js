@@ -22,6 +22,14 @@ var server = http.createServer(function (req, res) {
         
         res.write('This is working application....e\n');
         res.write('Creating application with with Node Js app\n');
+        
+        
+        res.write('This is working application....e\n');
+        res.write('Creating application with with Node Js app\n');
+        
+        
+        res.write('This is working >Running Asp .Net 5.0 Application on OpenShift CloudMy First ASP.NET lect an object to see more details.A pod contains one or more Docker containers that run together on a node,containing your application code.A service groups pods and provides a common DNS name and an optional, load - balanced IP address to access them. A deployment is an update to your application, triggered by a changed image or configuration '); 
+     
 
         res.write('This is a node.js echo service\n');
 		res.write('Host: ' + req.headers.host + '\n');
